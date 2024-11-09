@@ -65,6 +65,12 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+#roles img {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Make it responsive */
+}
+
 /* Roles list */
 .roles-list {
   list-style: none;

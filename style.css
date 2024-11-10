@@ -58,6 +58,11 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
+.section h4 {
+  color: #0dcaf0;
+  margin-bottom: 20px;
+}
+
 .section img {
   max-width: 100%;
   height: auto;
@@ -71,15 +76,46 @@ nav ul li a:hover {
   max-width: 100%; /* Make it responsive */
 }
 
-/* Roles list */
 .roles-list {
   list-style: none;
   padding: 10px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #e3e4e6; /* Lighter text for roles list */
 }
 
 .roles-list li {
-  font-size: 1.2em;
   margin: 5px 0;
+}
+
+.role-card {
+  display: flex;
+  align-items: center;
+  background-color: #2e2e38;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.role-image {
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.role-info h2 {
+  color: #0d6efd; /* Dark neon blue */
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.role-info p2 {
+  color: #e6e6e6;
+  font-size: 1em;
 }
 
 /* Gallery styling */
